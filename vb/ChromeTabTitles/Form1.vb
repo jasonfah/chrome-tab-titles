@@ -19,10 +19,10 @@ Public Class Form1
 
     Private Sub btnListTabTitles_Click(sender As Object, e As EventArgs) Handles btnListTabTitles.Click
         lstTabTitles.Items.Clear()
-        populateOpenFogBugzCases()
+        showTabTitles()
     End Sub
 
-    Private Sub populateOpenFogBugzCases()
+    Private Sub showTabTitles()
 
         '//Grab all the Chrome processes
         Dim chromeProcesses As Process() = Process.GetProcessesByName("chrome")
