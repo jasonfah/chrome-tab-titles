@@ -6,3 +6,6 @@ Before Google Chrome version 32, obtaining a list of open tab titles was somewha
 With the v32 update, using the method mentioned above you can only obtain the current open tabs title. No good. If we want a list of all open tabs, we have to do something different. In this case, it’s using the somewhat recent [UI Automation accessibility framework](http://msdn.microsoft.com/en-us/library/ms747327(v=vs.110).aspx). This framework allows you to treewalk through an applications UI, find and interact with majority of it’s interface elements.
 
 For more information visit http://www.bluelightdev.com/get-list-open-chrome-tabs
+
+## Known Issues
+* Does not work if Chrome is in full screen. [#1](../../issues/1)
